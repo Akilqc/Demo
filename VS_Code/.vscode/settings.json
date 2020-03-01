@@ -1,0 +1,18 @@
+{
+    "workbench.sideBar.location": "right",
+    "workbench.colorCustomizations": 
+    {
+        "editor.selectionBackground": "#64a2ad9d",
+        "editor.lineHighlightBackground": "#ffffff05",
+        "editor.lineHighlightBorder": "#ffffff65",
+    },
+    "editor.tokenColorCustomizations":
+    {
+       "comments": "#ddfa3c60", // 注释
+       "keywords": "#e7782d", // 关键字
+       "variables": "#ffffff", // 变量名
+       "strings": "#80f570bd", // 字符串
+       "functions": "#b896f8f5", // 函数名
+       "numbers": "#59b1f8f3" // 数字
+     }
+}
