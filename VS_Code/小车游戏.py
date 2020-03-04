@@ -1,6 +1,5 @@
 print('Welcom to the game, you can enter help to get rules.')
 income_sel = ""
-# old_income_sel = ""
 flag_start = False      #很好的一个思想：使用一个布尔类型的flag来代表小车的状态 简单易懂
 while True:
     income_sel = input('> ')
@@ -35,5 +34,4 @@ quit - to exit\n
         break
     else:
         print("I don't understand that...\n")
-        # old_income_sel = income_sel
 print('Gane Over!')

@@ -8,7 +8,7 @@
     },
     "editor.tokenColorCustomizations":
     {
-       "comments": "#ddfa3c60", // 注释
+       "comments": "#c7e425dc", // 注释
        "keywords": "#e7782d", // 关键字
        "variables": "#ffffff", // 变量名
        "strings": "#80f570bd", // 字符串
