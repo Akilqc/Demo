@@ -1,0 +1,35 @@
+from aip import AipSpeech
+from Record import reco
+import speech_recognition as sr
+import time
+
+APP_ID = '18732120'
+APP_KEY = 'RKcl7nwIGbs76Ck0Y1QhYrC6'
+SECRET_KEY = '7GUsGcMt13sOgf3Gw9xFz4apDIlxTX4R'
+
+client = AipSpeech(APP_ID, APP_KEY, SECRET_KEY)
+
+
+def reco(rate=16000):  # 固定采样率
+    r = sr.Recognizer()
+    with sr.Microphone(sample_rate = rate) as source:
+        print('开始录音！')
+        audio = r.listen(source)
+    # 将录音转为wav文件
+    with open(r'D:\Code\Demo\VS_Code\Speech-Recognition\RecordingFile\recording.wav', 'wb') as f:
+        f.write(audio.get_wav_data())
+    print('录音结束！')
+
+
+def record_to_api():
+    with open(r'D:\Code\Demo\VS_Code\Speech-Recognition\RecordingFile\recording.wav', 'rb') as f:
+        audio_data = f.read()
+    result = client.asr(audio_data, 'wav', 16000, {'dev_pid': 1537})
+    print(result['result'][0])
+
+
+reco()
+start = time.time()
+record_to_api()
+end = time.time()
+print('用时：', end - start)

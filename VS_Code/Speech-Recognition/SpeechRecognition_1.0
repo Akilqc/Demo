@@ -1,0 +1,17 @@
+import speech_recognition as sr
+
+r = sr.Recognizer()
+# temp = sr.AudioFile('C:\\Users\\Lenovo\\Downloads\\Compressed\\python-speech-recognition-master\\audio_files\\harvard.wav')
+# with temp as source:
+#     r.adjust_for_ambient_noise(source, duration = 0.5)
+#     audio = r.record(source)
+#
+# print(type(audio))
+# print(r.recognize_google(audio, show_all = True))
+
+mic = sr.Microphone()
+with mic as source:
+    r.adjust_for_ambient_noise(source, duration = 0.5)
+    audio = r.listen(source)
+
+print(r.recognize_google(audio))
