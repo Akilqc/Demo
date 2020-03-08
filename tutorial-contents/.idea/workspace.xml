@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33443877-b06d-4232-8608-56a810981c7f" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/../VS_Code/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../VS_Code/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/if语句2以及判断字符串中是否有多个不同字符.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/if语句以及len的应用.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/一些数学函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/元组.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/函数使用.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/列表使用.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/列表使用2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/字典-get方法以及（not）in的使用.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/字典2-字典查询的函数使用.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/字典3-计算某段文字各字符的出现次数以及pprint漂亮打印.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/字典4-字典嵌套.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/字符串的一些function和method.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/小车游戏.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/异常处理函数try和except.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/循环-for.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/循环-while-els.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/成绩等级评定.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/猜大小.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/类Class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/类Class2-继承.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/自带排序.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VS_Code/运算符.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1YmWBGdc5WfuVbxlDx7k9XAD4qh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33443877-b06d-4232-8608-56a810981c7f" name="默认更改列表" comment="" />
+      <created>1583548112685</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583548112685</updated>
+      <workItem from="1583548117880" duration="40000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
