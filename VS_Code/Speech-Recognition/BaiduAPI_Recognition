@@ -1,6 +1,8 @@
+from __future__ import division
 from aip import AipSpeech
 from Record import reco
 import speech_recognition as sr
+import mp3play
 import time
 
 APP_ID = '18732120'
@@ -28,8 +30,32 @@ def record_to_api():
     print(result['result'][0])
 
 
-reco()
-start = time.time()
-record_to_api()
-end = time.time()
-print('用时：', end - start)
+# text为转换文本
+def word_to_speech(text):
+    speech = client.synthesis(text, 'zh', 1,{
+        'spd': 4,
+        'vol': 5,
+        'per': 0,
+    })
+
+    # 保存为mp3格式文件
+    if not isinstance(speech, dict):
+        with open(r'D:\Code\Demo\VS_Code\Speech-Recognition\RecordingFile\Baidu-audio.mp3', 'wb') as f:
+            f.write(speech)
+
+    play = mp3play.load(r'D:\Code\Demo\VS_Code\Speech-Recognition\RecordingFile\Baidu-audio.mp3')
+    play.play()
+    # 获取mp3格式文件的时长，返回毫秒
+    duration = play.milliseconds()
+    time.sleep(duration/1000)
+    play.stop()
+
+
+# reco()
+# start = time.time()
+# record_to_api()
+# end = time.time()
+# print('用时：', end - start)
+
+text = str(input("输入想转换的文本："))
+word_to_speech(text)
