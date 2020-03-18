@@ -16,5 +16,5 @@ for child in soup.body.children: # 遍历儿子节点
 for child in soup.body.descendants: # 遍历所有的子孙节点
     print(child.name)
 
-for child in soup.body.descendants: # 遍历所有的子孙节点
-    print(child)
+# for child in soup.body.descendants: # 遍历所有的子孙节点
+#     print(child)
